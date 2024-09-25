@@ -1,37 +1,3 @@
-# import numpy as np
-# import matplotlib.pyplot as plt
-# from matplotlib.animation import FuncAnimation
-# from mpl_toolkits.mplot3d import Axes3D
-# from IPython.display import HTML
-# import pandas as pd
-
-# # Data
-# X = np.array([155, 180, 164, 162, 181, 182, 173, 190, 171, 170, 181, 182, 189, 184, 209, 210])
-# y = np.array([51, 52, 54, 53, 55, 59, 61, 59, 63, 76, 64, 66, 69, 72, 70, 80])
-
-
-# theta0 = 0
-# theta1 = 0
-# learning_rate = 1e-8
-# iterations = 30
-
-# def predict(X, theta0, theta1):
-#     return theta0 + theta1 * X
-
-# def cost_function(X, y, theta0, theta1):
-#     m = len(X)
-#     return (1 / (2 * m)) * np.sum((predict(X, theta0, theta1) - y) ** 2)
-
-# # Gradient Descent
-# def gradient_descent(X, y, theta0, theta1, learning_rate):
-#     m = len(X)
-#     gradient0 = (1 / m) * np.sum(predict(X, theta0, theta1) - y)
-#     gradient1 = (1 / m) * np.sum((predict(X, theta0, theta1) - y) * X)
-    
-#     new_theta0 = theta0 - learning_rate * gradient0
-#     new_theta1 = theta1 - learning_rate * gradient1
-#     return new_theta0, new_theta1
-
 import numpy as np
 import matplotlib.pyplot as plt
 
